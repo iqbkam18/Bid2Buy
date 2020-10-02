@@ -1,0 +1,142 @@
+html {
+  font-family: 'Manrope', sans-serif;
+}
+
+.container {
+  height: 85vh;
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  color: #fff !important;
+  background-color: #007bff;
+  border-color: #007bff;
+
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-container {
+  height: 85vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.daily-menu-container {
+  margin-right: 5%;
+}
+
+.header .left-options {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header .left-options .left-option {
+  padding: 25px;
+}
+
+.header .right-options {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header .right-options .right-option {
+  padding: 25px;
+}
+
+.right-msg {
+  padding: 25px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+a:hover {
+  color: red;
+}
+
+.form-container {
+  padding-left: 30px;
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+}
+.group .form-input {
+  background: white none;
+  color: grey;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 50%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid grey;
+  margin: 25px 0;
+}
+.group .form-input:focus {
+  outline: none;
+}
+.group .form-input:focus ~ .form-input-label {
+  top: -14px;
+  font-size: 12px;
+  color: black;
+}
+.group input[type='password'] {
+  letter-spacing: 0.3em;
+}
+.group .form-input-label {
+  color: grey;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 300ms ease all;
+}
+.group .form-input-label.shrink {
+  top: -14px;
+  font-size: 12px;
+  color: black;
+}
+
+img.item {
+  width: 200px;
+}
